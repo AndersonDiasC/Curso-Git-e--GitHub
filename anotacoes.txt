@@ -8,8 +8,9 @@ criptografa em um conjunto de caracteres de 40 digitos
 - Objetos Fundamentais 
 
 ** Blobs 
-
+arquivos que guarda as SHA1 dos dados no repositorio.
 ** Trees
+guarda os blobs o SHA1 e o nome do arquivo
 ** Commits
 
 
