@@ -1,0 +1,29 @@
+* Git
+
+Como funciona 
+
+- SHA1 = secure Hash algorithm  ele embaralha od dados e 
+criptografa em um conjunto de caracteres de 40 digitos
+
+- Objetos Fundamentais 
+
+** Blobs 
+
+** Trees
+** Commits
+
+
+- Sistema distribuido 
+
+
+
+* GitHub
+
+
+GUI = graphics user interface
+CLI = comannd line interfaces
+
+
+- CMD
+mkdir + nome da pasta  = criar pasta 
+rmdir + nome da pasta /S/Q = remover repositorio(pasta windows)
