@@ -12,10 +12,11 @@ arquivos que guarda as SHA1 dos dados no repositorio.
 ** Trees
 guarda os blobs o SHA1 e o nome do arquivo
 ** Commits
-
+é composto por tree, parente, autor, mensagem, timestamp o SHA1 do commit é o hash de toda essa informação.
 
 - Sistema distribuido 
-
+e um sistema distribuido seguro, o código que está publicado representa a ultima versão do seu código,
+pq todas as versões que estiverem nas maquinas  
 
 
 * GitHub
@@ -28,3 +29,15 @@ CLI = comannd line interfaces
 - CMD
 mkdir + nome da pasta  = criar pasta 
 rmdir + nome da pasta /S/Q = remover repositorio(pasta windows)
+
+
+CHAVE SSH 
+
+VIA GIT BASH 
+ssh-keygen -t ed25519 -C andersoncesar.github@gmail.com
+
+inicializar o agente ssh via git bash
+eval $(ssh-agent -s)
+passar a chave ssh para o agente
+
+ssh-add + o id da chave privada(id_ed25519 chave criada no curso)
